@@ -1,6 +1,6 @@
-import { ContextProvider } from "./context";
 import Child from "./child";
 import ChildTwo from "./child-two";
+import ContextProvider from "./context";
 
 export default function UseContextPage() {
     return (
