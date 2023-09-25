@@ -7,7 +7,7 @@ type User = {
 
 export const MyContext = createContext<User>({ userName: "", updateUser: () => null });
 
-export function ContextProvider({ children }: PropsWithChildren) {
+export default function ContextProvider({ children }: PropsWithChildren) {
     const [userName, setUserName] = useState("Hudson");
 
     const memo = useMemo(() => ({ userName, updateUser: (name: string) => setUserName(name) }), [userName])
