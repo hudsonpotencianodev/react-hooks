@@ -10,6 +10,7 @@ export default function UseCallbackPage() {
     (event: any) => {
       console.log("memorized callback click", event?.currentTarget);
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [dep],
   );
 
