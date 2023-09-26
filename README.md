@@ -1,8 +1,3 @@
-# Dia 2 - Hooks
-
-Responsável: Hudson Potenciano
-Data: 25 de setembro de 2023
-
 # Hooks
 
 Desde a versão 16.8 do React, a introdução dos Hooks trouxe uma nova abordagem à gestão de estado e efeitos nos componentes funcionais. Vamos aprender cada um dos Hooks fornecidos pelo React, incluindo os potentes Custom Hooks, que possibilitam a reutilização de lógica complexa em toda a aplicação.
