@@ -21,6 +21,7 @@ const Layout = ({ children }: PropsWithChildren) => {
                 <Link href="/hook-pages/react-memo" className={'link'}>reactMemo</Link>
                 <Link href="/hook-pages/use-callback" className={'link'}>useCallback</Link>
                 <Link href="/hook-pages/custom-hook" className={'link'}>Custom</Link>
+                <Link href="/hook-pages/redux" className={'link'}>Redux</Link>
             </div>
         </div>
         <main className="main">{children}</main>

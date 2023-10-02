@@ -5,10 +5,10 @@ function Child({ count }: { count: number }) {
     return <h3>Child count: {count}</h3>
 }
 
-function ChildMemo({ count }: { count: number }) {
+const ChildMemo = React.memo(function ChildMemo({ count }: { count: number }) {
     console.log("child-memo re-render");
     return <h3>ChildMemo count: {count}</h3>
-}
+})
 
 export default function ReactMemo() {
     console.log("parent re-render");
